@@ -8,10 +8,10 @@ const Experience = () => {
     return (
         <>
             <div className="bg-black">
-                <Canvas style={{background: '#f5efd9'}} shadows  camera={{position: [5, 5, 5], fov: 50, far: 50000}}>
+                <Canvas style={{background: '#D0D0D0'}} shadows  camera={{position: [5, 5, 5], fov: 50, far: 50000}}>
                     <ScrollControls pages={10} damping={0.2}>
                         <Overlay/>
-                        <Bubble/>
+                        {/*<Bubble/>*/}
                     </ScrollControls>
                 </Canvas>
             </div>
