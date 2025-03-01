@@ -8,45 +8,23 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "var1 h=2500mm.",
+                nameProject: "Lavoro",
                 def: [
-                    {file: "awingDefoult"},
-                    {file: "awingVar1Defoult1"},
-                    {file: "awingVar1Defoult2"},
+                    {file: "defoult1"},
+                    {file: "defoult2"},
+                    {file: "defoult3"},
+                    {file: "defoult4"},
+                    {file: "defoult5"},
                 ],
                 components: [
-                    {id: v1(), groupElements: 0, name: "awingWallOne", file: "awingWallOne", check: true},
-                    {id: v1(), groupElements: 0, name: "awingWallTwo", file: "awingWallTwo", check: false},
+                    {id: v1(), groupElements: 0, name: "ceiling", file: "ceiling1", check: true},
+                    {id: v1(), groupElements: 0, name: "without ceiling", file: "ceiling2", check: false},
+                    {id: v1(), groupElements: 1, name: "windows", file: "windows1", check: true},
+                    {id: v1(), groupElements: 1, name: "without windows", file: "windows2", check: false},
+                    {id: v1(), groupElements: 2, name: "wall", file: "wall1", check: true},
+                    {id: v1(), groupElements: 2, name: "without wall", file: "wall2", check: false},
                 ]
             },
-            {
-                id: v1(),
-                check: false,
-                nameProject: "var2 h=3000mm.",
-                def: [
-                    {file: "awingDefoult"},
-                    {file: "awingVar2Defoult1"},
-                    {file: "awingVar2Defoult2"},
-                ],
-                components: [
-                    {id: v1(), groupElements: 0, name: "awingWallOne", file: "awingWallOne", check: true},
-                    {id: v1(), groupElements: 0, name: "awingWallTwo", file: "awingWallTwo", check: false},
-                ]
-            },
-            {
-                id: v1(),
-                check: false,
-                nameProject: "var3",
-                def: [
-                    {file: "awingDefoult"},
-                    {file: "awingVar3Defoult1"},
-                    {file: "awingVar3Defoult2"},
-                ],
-                components: [
-                    {id: v1(), groupElements: 0, name: "awingWallOne", file: "awingWallOne", check: true},
-                    {id: v1(), groupElements: 0, name: "awingWallTwo", file: "awingWallTwo", check: false},
-                ]
-            }
         ]
     },
 ]
